@@ -13,7 +13,7 @@ Make sure that 'simulator.py' file (Simulator code) is in the `/SimpleSimulator`
 Navigate to the `/automatedTesting` folder. <br>
 Running the Assembler: <pre><code>./run --no-sim</code></pre> 
 Running the Simulator: <pre><code>./run --no-asm</code></pre> 
-To run both: <pre><code>```bash./run```</code></pre>
+To run both: <pre><code>./run</code></pre>
 
 🛠️ **Features** <br>
 - Assembler: Converts assembly code into machine code for the specified [ISA](https://github.com/shobhitraj1/risc-Assembler-and-Simulator/blob/25c5e0a595713494cf1de1e57eb046e7f70ae93f/CO_project%20_2023.pdf). The program is able to handle all the supported instructions of the ISA, labels & variables. The assembler reads the assembly program as an input text file using sys.stdin and prints the binary format of the respective instructions if the assembly program is error free. <br>
