@@ -11,8 +11,8 @@ Follow these steps to use the assembler and simulator: <br>
 Make sure that 'assembler.py' file (Assembler code) is in the `/Simple-Assembler` directory.<br>
 Make sure that 'simulator.py' file (Simulator code) is in the `/SimpleSimulator` directory.<br>
 Navigate to the `/automatedTesting` folder. <br>
-Running the Assembler: <pre><code>./run --no-sim</code></pre> 
-Running the Simulator: <pre><code>./run --no-asm</code></pre> 
+To run the Assembler: <pre><code>./run --no-sim</code></pre> 
+To run the Simulator: <pre><code>./run --no-asm</code></pre> 
 To run both: <pre><code>./run</code></pre>
 
 🛠️ **Features** <br>
@@ -24,7 +24,7 @@ To run both: <pre><code>./run</code></pre>
 - Bonus part: The assembler & simulator also handles 5 instructions that I have designed on my own i.e. increment, decrement, left rotate, right rotate & swap. A brief description of these instructions are given in the readmeQ4.md file. (bonus part testcases along with their bins & traces has been added in `/simple` folder in `/tests`) <br>
 
 🧰 **Supported Instruction Set Architecture**
-This project supports the [ISA mentioned here](https://github.com/shobhitraj1/risc-Assembler-and-Simulator/blob/25c5e0a595713494cf1de1e57eb046e7f70ae93f/CO_project%20_2023.pdf)
+This project supports the [ISA mentioned here](https://github.com/shobhitraj1/risc-Assembler-and-Simulator/blob/25c5e0a595713494cf1de1e57eb046e7f70ae93f/CO_project%20_2023.pdf).
 
 📚 **Course Details:**<br>
 Instructor's name - Tammam Tillo (tammam@iiitd.ac.in)<br>
