@@ -11,8 +11,8 @@ Follow these steps to use the assembler and simulator: <br>
 Make sure that 'assembler.py' file (Assembler code) is in the `/Simple-Assembler` directory.<br>
 Make sure that 'simulator.py' file (Simulator code) is in the `/SimpleSimulator` directory.<br>
 Navigate to the `/automatedTesting` folder. <br>
-Running the Assembler: <pre><code>./run --no-sim</code></pre> <br>
-Running the Simulator: <pre><code>./run --no-asm</code></pre> <br>
+Running the Assembler: <pre><code>./run --no-sim</code></pre> 
+Running the Simulator: <pre><code>./run --no-asm</code></pre> 
 To run both: <pre><code>./run</code></pre>
 
 🛠️ **Features** <br>
