@@ -12,7 +12,7 @@ Simulator: Reads the machine code & execute the instructions. It is able to hand
 Automated Testing: Includes a suite of automated tests to ensure the correctness and reliability of the assembler and simulator. <br>
 Floating Point Computation: The assembler & simulator are also capable of handling floating point computations (addf, subf & movf) <br>
 Error Handling & flag register: The program is able to generate errors for different types of invalid instructions in assembly code along with the line no. in which the error is encountered. The flag register is set by overflows & comparison instruction. 
-Bonus part: The assembler & simulator also handles 5 instructions that I have designed on my own i.e. increment, decrement, left rotate, right rotate & swap. A brief description of these instructions are given in the readmeQ4.md file. (bonus part testcases along with their bins & traces has been added in -'/simple' directory) <br>
+Bonus part: The assembler & simulator also handles 5 instructions that I have designed on my own i.e. increment, decrement, left rotate, right rotate & swap. A brief description of these instructions are given in the readmeQ4.md file. (bonus part testcases along with their bins & traces has been added in '/simple' directory) <br>
 
 📋 **Usage**
 Follow these steps to use the assembler and simulator:
