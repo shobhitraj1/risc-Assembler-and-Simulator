@@ -14,42 +14,38 @@ I have created testcases for verifying the upgraded assembler & simulator (added
 
 The description of the instructions along with their opcode, semantics etc. are as follows -
 
-1. Increment: 
-Opcode - 10100
-Instruction - Increment
-Semantics - Increment the value of a register by a specified amount $Imm, where Imm is a 
-7 bit value.
-Syntax - incf reg1 $Imm
+1. Increment: <br>
+Opcode - 10100 <br>
+Instruction - Increment<br>
+Semantics - Increment the value of a register by a specified amount $Imm, where Imm is a 7 bit value.<br>
+Syntax - incf reg1 $Imm<br>
+Type - B (register and immediate type)<br>
+
+2. Decrement:<br>
+Opcode - 10101<br>
+Instruction - Decrement<br>
+Semantics - Decrement the value of a register by a specified amount $Imm, where Imm is a 7 bit value. <br>
+Syntax - decf reg1 $Imm<br>
 Type - B (register and immediate type)
 
-2. Decrement:
-Opcode - 10101
-Instruction - Decrement
-Semantics - Decrement the value of a register by a specified amount $Imm, where Imm is a 
-7 bit value.
-Syntax - decf reg1 $Imm
+3. Rotate Left: <br>
+Opcode - 10110<br>
+Instruction - Rotate Left<br>
+Semantics - Rotate the bits of a register to the left by a specified number of positions $Imm, where Imm is a 7 bit value.<br>
+Syntax - rrl reg1 $Imm<br>
 Type - B (register and immediate type)
 
-3. Rotate Left: 
-Opcode - 10110
-Instruction - Rotate Left
-Semantics - Rotate the bits of a register to the left by a specified number of positions 
-$Imm, where Imm is a 7 bit value.
-Syntax - rrl reg1 $Imm
+4. Rotate Right: <br>
+Opcode - 10111<br>
+Instruction - Rotate Right<br>
+Semantics - Rotate the bits of a register to the right by a specified number of positions $Imm, where Imm is a 7 bit value.<br>
+Syntax - rrr reg1 $Imm<br>
 Type - B (register and immediate type)
 
-4. Rotate Right: 
-Opcode - 10111
-Instruction - Rotate Right
-Semantics - Rotate the bits of a register to the right by a specified number of positions 
-$Imm, where Imm is a 7 bit value.
-Syntax - rrr reg1 $Imm
-Type - B (register and immediate type)
-
-5. Swap: 
-Opcode - 11000
-Instruction - Swap
-Semantics - Swap the contents of two registers.
-Syntax - swap reg1 reg2
-Type - C (2 registers type)
+5. Swap: <br>
+Opcode - 11000<br>
+Instruction - Swap<br>
+Semantics - Swap the contents of two registers.<br>
+Syntax - swap reg1 reg2<br>
+Type - C (2 registers type)<br>
 
